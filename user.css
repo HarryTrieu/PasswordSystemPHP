@@ -1,0 +1,39 @@
+button{
+    margin-top:10px;
+}
+body{
+    height: 100vh;
+}
+.profile-container {
+    max-width: 500px;
+    max-height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(1, 1, 1, 0.9);
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.username {
+    color: #2b968d;
+}
+
+.avatar {
+  width: 150px;              
+  height: 150px;
+  object-fit: cover;         /* crop */
+  border-radius: 50%;        /* round */
+  display: block;
+  margin: 20px auto;
+  border: 3px solid rgba(239, 255, 242, 0.5); 
+  box-shadow: 0 2px 4px rgba(1, 1, 1, 0.9);
+}
