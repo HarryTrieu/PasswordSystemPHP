@@ -1,6 +1,6 @@
 <?php
-// Serve avatar image as proper binary with correct headers
-// Used ChatGPT for this 
+// Serve avatar image as proper binary with correct headers.
+// Used chatgpt for this. 
 
 session_start();
 require_once 'config.php';
